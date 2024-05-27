@@ -12,7 +12,7 @@ function TableServices() {
   const fetchData = async (userId) => {
     try {
       const response = await axios.get(
-        `http://autolog-deploy.azurewebsites.net/users/${userId}/cars`
+        `https://autolog-deploy.azurewebsites.net/users/${userId}/cars`
       );
       const sortedData = response.data.map((car) => {
         const sortedMaintenanceHistory = car.maintenanceHistory.sort(

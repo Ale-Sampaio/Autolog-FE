@@ -57,7 +57,7 @@ function CarRegistrationForm() {
 
     try {
       const response = await fetch(
-        `http://autolog-deploy.azurewebsites.net/users/${userId}/cars`,
+        `https://autolog-deploy.azurewebsites.net/users/${userId}/cars`,
         {
           method: "POST",
           headers: {

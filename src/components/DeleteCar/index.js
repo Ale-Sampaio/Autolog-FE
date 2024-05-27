@@ -31,7 +31,7 @@ function DeleteCar() {
 
       try {
         const response = await axios.get(
-          `http://autolog-deploy.azurewebsites.net/users/${userId}/cars`,
+          `https://autolog-deploy.azurewebsites.net/users/${userId}/cars`,
           {
             headers: {
               Authorization: `Bearer ${token}`,

@@ -79,7 +79,7 @@ function EditUser() {
 
     try {
       const response = await axios.put(
-        `http://autolog-deploy.azurewebsites.net/users/${userId}`,
+        `https://autolog-deploy.azurewebsites.net/users/${userId}`,
         formData,
         {
           headers: {

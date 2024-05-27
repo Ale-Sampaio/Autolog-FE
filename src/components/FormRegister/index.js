@@ -104,7 +104,7 @@ function FormRegister() {
 
         try {
           const response = await axios.post(
-            "http://autolog-deploy.azurewebsites.net/auth/register",
+            "https://autolog-deploy.azurewebsites.net/auth/register",
             dataToSend,
             {
               headers: {

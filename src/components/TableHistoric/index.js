@@ -8,7 +8,7 @@ function TableHistoric() {
   const fetchData = async (userId) => {
     try {
       const response = await axios.get(
-        `http://autolog-deploy.azurewebsites.net/users/${userId}/cars`
+        `https://autolog-deploy.azurewebsites.net/users/${userId}/cars`
       );
       console.log(response.data);
       const cars = response.data;

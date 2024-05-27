@@ -20,7 +20,7 @@ function TableCar() {
 
     try {
       const response = await axios.get(
-        `http://autolog-deploy.azurewebsites.net/users/${userId}/cars`,
+        `https://autolog-deploy.azurewebsites.net/users/${userId}/cars`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -32,7 +32,7 @@ function TableCar() {
       if (foundCar) {
         setTargetCar(foundCar);
         const carServicesResponse = await axios.get(
-          `http://autolog-deploy.azurewebsites.net/users/${userId}/cars/${foundCar.idCar}/maintenance`,
+          `https://autolog-deploy.azurewebsites.net/users/${userId}/cars/${foundCar.idCar}/maintenance`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
