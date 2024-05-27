@@ -12,7 +12,7 @@ const Footer = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.instagram.com/o_alesampaio/"
+                  href="https://github.com/Ale-Sampaio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -21,7 +21,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com"
+                  href="https://github.com/Jidsx"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -30,7 +30,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/_muriloh3/"
+                  href="https://github.com/Motielk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -39,7 +39,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/reneschzz/"
+                  href="https://github.com/renebttg"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -48,7 +48,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/vitorh.gs/"
+                  href="https://github.com/Testorugo"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
