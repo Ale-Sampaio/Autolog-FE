@@ -3,9 +3,12 @@ import axios from "axios";
 export default class UserServices {
   constructor() {
     this.axios = axios.create({
-      baseURL: process.env.REACT_APP_API_LOGIN || "https://autolog-deploy.azurewebsites.net/auth",
+      baseURL: process.env.REACT_APP_API_LOGIN || "http://localhost:8080/auth",
     });
   }
+  //Trocar o endpoint aqui no e services/EndpointContext.js!
+  //https://autolog-deploy.azurewebsites.net/auth
+
 
   async login(dados) {
     try {
