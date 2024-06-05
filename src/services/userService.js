@@ -8,6 +8,7 @@ export default class UserServices {
   }
   //Trocar o endpoint aqui no e services/EndpointContext.js!
   //https://autolog-deploy.azurewebsites.net/auth
+  
 
 
   async login(dados) {

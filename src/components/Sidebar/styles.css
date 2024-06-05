@@ -125,11 +125,12 @@
 }
 
 .dark-mode .button-link {
-  color: white;
+  color: #0a0e14;
 }
 
 .dark-mode .active {
-  background-color: #1e3a46;
+  background-color: #6790aa;
+  color: #fff;
 }
 
 .dark-mode .card-sb {
